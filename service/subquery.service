@@ -11,8 +11,8 @@ User=root
 SyslogIdentifier=subquery
 SyslogFacility=local7
 KillSignal=SIGHUP
-WorkingDirectory=$HOME/SubQuery
-ExecStart=/usr/local/bin/docker-compose up -d
+WorkingDirectory=/home/ec2-user/subquery-indexer
+ExecStart=/usr/bin/docker-compose up -d
 
 [Install]
 WantedBy=multi-user.target
