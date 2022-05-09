@@ -11,7 +11,7 @@ User=root
 SyslogIdentifier=subquery
 SyslogFacility=local7
 KillSignal=SIGHUP
-WorkingDirectory=/root/SubQuery
+WorkingDirectory=/root/testnet/SubQuery
 ExecStart=/usr/bin/docker-compose up -d
 
 [Install]
