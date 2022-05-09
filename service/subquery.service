@@ -12,7 +12,7 @@ SyslogIdentifier=subquery
 SyslogFacility=local7
 KillSignal=SIGHUP
 WorkingDirectory=/root/testnet/SubQuery
-ExecStart=/usr/bin/docker-compose up -d
+ExecStart=/usr/bin/python3 /usr/bin/docker-compose up -d
 
 [Install]
 WantedBy=multi-user.target
